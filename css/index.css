@@ -1,0 +1,298 @@
+*{
+	margin:0px;
+	padding:0px;	
+}
+body{
+	font-family:Sitka;
+}
+#navbar{
+	position:sticky;
+	top:0px;
+	z-index:10;
+}
+.navbar-nav ul{
+	text-align:center;
+}
+.navbar-nav li a{	
+	color:white!important;	
+	font-style:style!important;
+}
+.navbar-nav li{	
+	padding:0px 18px;
+	text-align:left;	
+}
+#navbar ul li a:hover{
+	color:white!important;
+	box-shadow:0 0 10px 2px rgba(0,0,0,0.2);
+}
+.navbar{
+	background:#ff00c0!important;
+	color:white!important;
+}
+.navbar-brand{
+	font-size:30px;
+	color:white!important;
+}
+.navbar-toggler{
+	border:none;
+	color:white!important;
+}
+.nav-link{
+	font-size:18px;
+	font-style:bold;
+}
+#slider{
+	width:100%;
+}
+#about{
+	padding:50px 0px;	
+}
+#about .row{
+	background:white;
+	border-radius:15px 15px 0px 0px;
+	padding:50px 10px;
+}
+#about .btn{
+	background:#ff00c0!important;
+	border:none;
+	font-size:20px;
+	padding:8px;
+}
+#about h2{
+	color:#0048ff;
+}
+#knowledge{
+	padding:50px 0px;	
+}
+#knowledge .row{
+	box-shadow:0 0 10px 2px rgba(0,0,0,0.2);
+}
+#knowledge .btn:hover{
+	box-shadow:0 0 10px 2px rgba(0,0,0,0.5);
+}
+#knowledge .progress{
+	margin-bottom:16px;
+}
+#knowledge p{
+	margin-bottom:-1px;
+}
+#knowledge .col-md-6{
+	padding:7px 55px;
+
+}
+#staff{
+	padding:0px 40px;
+}
+#staff h2{
+	color:#0048ff;
+}
+#staff .resiz{
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:-77px;
+	left:35%;
+}
+#staff img{
+	border:10px solid white;
+	border-radius:50%
+
+}
+#staff p{
+	padding-top:30px;
+	padding-right:10px;
+	padding-left:10px;
+}
+#staff .col-md-4{	
+	padding:0px 40px;
+	border-radius:10px 10px 0px 0px;	
+	margin:0px auto;
+}
+#staff .row{
+	margin-top:80px;
+}
+#staff p:after{
+	content:'';
+	height:1px;
+	width:100%;
+	display:inline-block;
+	background:#0048ff;	
+}
+#staff h5{
+	padding-bottom:0px;	
+	text-align:center;
+}
+.profile{
+	background:#d0d0d0;
+}
+#footer{
+	background:linear-gradient(rgba(255,0,192,0.3),rgba(255,0,192,0.3)),url(../images/8.png);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	padding:50px 0px;
+	color:white;
+}
+#footer p{
+	text-align:center;
+	font-size:17px;
+}
+#tutors{
+	background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../images/17.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	padding-top:50px;
+	padding-bottom:70px;
+	color:white;
+}
+.second{		
+	border-radius:6px;
+}
+.second:hover{
+	box-shadow:0 0 10px 2px rgba(255,0,192,0.3);
+}
+.second .head_section{
+	background:#0048ff;
+	border-radius:6px 6px 0px 0px;
+}
+.second h5{
+	text-align:center;
+	color:white;
+	padding:6px 0px;
+}
+.second ul{
+	list-style:none;
+	padding:5px;
+	color:#0048ff;
+}
+.second ul li{
+	color:white;
+}
+.second img{
+	width:80px;
+	height:80px;
+	border:2px solid white;
+	border-radius:50%;
+	position:absolute;
+	left:-15px;
+	top:170px;
+}
+.second .para{
+	padding-top:7px;
+	padding-bottom:25px;
+}
+.second .last{
+	background:#0048ff;
+	border-radius:0px 0px 6px 6px;
+}
+.text{
+	color:#ff00c0!important;
+}
+.upload .trans:hover{
+	background:transparent;
+	color:#ff00c0;
+	outline:none;
+	outline-style:none;
+	border:1px solid #ff00c0;
+}
+.upload .file{
+	background:#ff00c0;
+	color:white;
+	border-radius:5px;
+	width:90%;
+}
+.upload .file:hover{
+	cursor:pointer;
+}
+.upload .btn{
+	background:#ff00c0;
+}
+#materials{
+	
+	padding:50px 0px;
+	background:#0048ff;
+}
+.first{
+	padding-bottom:20px;
+	color:white;
+	font-size:26px;
+	font-style:bold;
+}
+.semester .col-md-6{
+	color:white;
+	font-size:18px;
+}
+.welcome{
+	color:white;
+	font-size:18px;
+}
+.bott .col-md-4{
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));	
+	padding:20px 0px;
+}
+.bott .col-md-4 span{
+	padding-right:7px;
+}
+#tutors1{
+	background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../images/14.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	padding-top:50px;
+	padding-bottom:70px;
+	color:white;
+}
+#tutors2{
+	background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../images/rain.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	padding-top:50px;
+	padding-bottom:70px;
+	color:white;
+}
+#tutors3{
+	background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/13.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	padding-top:50px;
+	padding-bottom:70px;
+	color:white;
+}
+#contact{
+	padding:60px 0px;
+	background:#ebebeb;
+
+}
+#contact .col-md-6{
+	margin:30px 0px;	
+}
+.blue{
+	color:#0048ff!important;
+}
+.blue:after{
+	content:'';
+	height:1px;
+	width:100%;
+	display:inline-block;
+	background:#0048ff;
+}
+#contact input{
+	margin:10px 0px;
+}
+.hover{
+	border:#ff00c0!important;
+	outline-style:none;
+}
+
+
+
+
+
